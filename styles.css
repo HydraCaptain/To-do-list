@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: url('asset/AdobeStock_549130774_Preview.jpeg') no-repeat ;
+    background: url('asset/Designer.png.crdownload') no-repeat ;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -39,7 +39,7 @@ button {
     padding: 8px;
     font-size: 20;
     border-radius: 3px;
-    background-color: #4caf50;
+    background: none;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -54,16 +54,21 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #eee;
+    color: #000000;
     padding: 5px;
     border-bottom: 1px solid #eee;
 }
 li input[type="checkbox"] {
     grid-row: 1;
+    width: 2rem;
+    height: 1.2rem;
 }
 
 li span {
     flex-grow: 2; 
+    font-size: 23px;
+    overflow: hidden;
+    max-width: 230px;
 }
 
 li button {
@@ -75,4 +80,10 @@ li button {
 .completed {
     text-decoration: line-through;
     opacity: 0.7;
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        margin: 0 10px;
+    }
 }
