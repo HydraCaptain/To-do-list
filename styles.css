@@ -80,7 +80,15 @@ li button {
     text-decoration: line-through;
     opacity: 0.7;
 }
+#taskList {
+    max-height: 300px;
+    overflow-y: auto;
+     scrollbar-width: none;
+}
 
+#taskListContainer::-webkit-scrollbar {
+    display: none;
+}
 @media screen and (max-width: 500px) {
     body{
         margin: 0 10px;
