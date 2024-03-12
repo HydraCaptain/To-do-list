@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: url('asset/21559956_6457506.svg') no-repeat ;
+    background: url('asset/john-fowler-RsRTIofe0HE-unsplash.jpg') no-repeat ;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -26,12 +26,16 @@ body {
 .input-container {
     display: flex;
     margin-bottom: 10px;
+    margin-left: 27px;
 }
 
 input {
     flex: 1;
     font-size: 20;
     padding: 8px;
+    border-radius: 8px;
+    border: #000000;
+    font-size: large;
 }
 
 button {
